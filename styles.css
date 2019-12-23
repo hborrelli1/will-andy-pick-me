@@ -40,18 +40,17 @@ main {
   width:50%;
 }
 
-.eight-ball-section {
+.eight-ball-section .box {
   background-color:#E6ECF4;
   position:relative;
+  margin-bottom:20px;
+  padding:20px;
+  min-height: 400px;
 }
 
 .eight-ball-section img {
   max-width:200px;
-  margin:0 auto;
-}
-
-.question-form {
-  padding:20px;
+  margin:30px auto 0px;
 }
 
 .question-form input,
@@ -93,4 +92,19 @@ main {
 
 .hidden {
   display:none;
+}
+
+.favorite-answers-list {
+  padding-left:0px;
+}
+
+.favorite-answers-list li {
+  list-style-type:none;
+  padding:5px 10px;
+  background-color:#E6ECF4;
+  margin-bottom:10px;
+}
+
+#heartBtn {
+  margin-bottom:30px;
 }

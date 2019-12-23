@@ -12,14 +12,22 @@
     </header>
     <main>
       <section class="eight-ball-section">
-        <form class="question-form" action="#" method="">
-          <input id="questionInput" type="text" name="question-input" placeholder="Ask your question here!">
-          <button id="submitBtn" type="button" name="submit-btn" disabled>Get your answer</button>
-        </form>
-        <img id="eightBallImage" src="assets/eight-ball.png" alt="Eight Ball">
-        <p id="usersQuestion" class="hidden"></p>
-        <p id="eightBallAnswer" class="hidden"></p>
-        <button id="clearBtn" type="button" name="clear-btn" disabled>Clear</button>
+        <section class="box">
+          <form class="question-form" action="#" method="">
+            <input id="questionInput" type="text" name="question-input" placeholder="Ask your question here!">
+            <button id="submitBtn" type="button" name="submit-btn" disabled>Get your answer</button>
+          </form>
+          <img id="eightBallImage" src="assets/eight-ball.png" alt="Eight Ball">
+          <p id="usersQuestion" class="hidden"></p>
+          <p id="eightBallAnswer" class="hidden"></p>
+          <button id="heartBtn" class="hidden" type="button" name="favorite-answers">Heart Icon</button>
+          <button id="clearBtn" type="button" name="clear-btn" disabled>Clear</button>
+        </section>
+        <section class="favorite-answers-box hidden">
+          <h4>Favorite Answers</h4>
+          <ul class="favorite-answers-list">
+          </ul>
+        </section>
       </section>
       <section class="woody-section">
         <img src="assets/woody.png" alt="Woody">
