@@ -10,3 +10,77 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+* {
+  box-sizing:border-box;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color:#2B4E80;
+  font-family: 'Life Savers',sans-serif;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+main {
+  display:flex;
+  text-align: center;
+  max-width:1000px;
+  margin: 0 auto;
+  max-height: 400px;
+}
+
+.eight-ball-section,
+.woody-section {
+  width:50%;
+}
+
+.eight-ball-section {
+  background-color:#E6ECF4;
+  position:relative;
+}
+
+.eight-ball-section img {
+  max-width:200px;
+  margin:0 auto;
+}
+
+.question-form {
+  padding:20px;
+}
+
+.question-form input,
+.question-form button {
+  width:100%;
+  marign:0 auto;
+  text-align:center;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.question-form button {
+  background-color:#2B4E80;
+  color:#fff;
+}
+
+.woody-section img {
+  height:100%;
+}
+
+#clearBtn {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  background-color:#DE4841;
+  color:#fff;
+  padding:5px 10px;
+}
+
+#clearBtn:disabled {
+  background-color:#D0CDCD !important;
+}
