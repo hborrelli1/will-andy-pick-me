@@ -83,6 +83,12 @@ main {
 
 #clearBtn:disabled {
   background-color:#D0CDCD !important;
+  cursor:no-drop;
+}
+
+#submitBtn:disabled {
+  opacity:.7;
+  cursor:no-drop;
 }
 
 .hidden {
