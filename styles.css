@@ -84,3 +84,7 @@ main {
 #clearBtn:disabled {
   background-color:#D0CDCD !important;
 }
+
+.hidden {
+  display:none;
+}

@@ -13,10 +13,12 @@
     <main>
       <section class="eight-ball-section">
         <form class="question-form" action="#" method="">
-          <input type="text" name="question-input" placeholder="Ask your question here!">
+          <input id="questionInput" type="text" name="question-input" placeholder="Ask your question here!">
           <button id="submitBtn" type="button" name="submit-btn">Get your answer</button>
         </form>
-        <img src="assets/eight-ball.png" alt="Eight Ball">
+        <img id="eightBallImage" src="assets/eight-ball.png" alt="Eight Ball">
+        <p id="usersQuestion" class="hidden"></p>
+        <p id="eightBallAnswer" class="hidden"></p>
         <button id="clearBtn" type="button" name="clear-btn" disabled>Clear</button>
       </section>
       <section class="woody-section">
@@ -24,4 +26,5 @@
       </section>
     </main>
   </body>
+  <script type="text/javascript" src="index.js"></script>
 </html>
